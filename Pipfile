@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+pylint-flask = "*"
+psycopg2-binary = "*"
+selenium = "*"
+bs4 = "*"
+urllib3 = "*"
+celery = {extras = ["redis"],version = "*"}
+future = "*"
+werkzeug = "*"
+pyjwt = "*"
+cloudinary = "*"
+flask-httpauth = "*"
+
+[requires]
+python_version = "3.8"
